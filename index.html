@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitIndia</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap" rel="stylesheet">
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./images/dumbell.jpg">
+    <link rel="preload" as="image" href="./images/hero-circle-one.png">
+    <link rel="preload" as="image" href="./images/hero-circle-two.png">
+    <link rel="preload" as="image" href="./images/heart-rate.svg">
+    <link rel="preload" as="image" href="./images/calories.svg">
+
+</head>
+
+<body id="top">
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+
+                <span class="span">FitIndia</span>
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+        </button>
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="/" class="navbar-link active" data-nav-link>Home</a>
+                    </li>
+
+                    <li>
+                        <a href="about.html" class="navbar-link" data-nav-link>About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="class.html" class="navbar-link" data-nav-link>Classes</a>
+                    </li>
+
+                    <li>
+                        <a href="blog.html" class="navbar-link" data-nav-link>Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <a href="#" class="btn btn-secondary">Join Now</a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+        <article>
+
+            <!-- 
+        - #HERO
+      -->
+
+            <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section style="background-image: url('./images/hero-bg.png')">
+                <div class="container">
+
+                    <div class="hero-content">
+
+                        <p class="hero-subtitle">
+                            <strong class="strong">The Better</strong>The Best
+                        </p>
+
+                        <h1 class="h1 hero-title">Your Health is an Investment , Not an Expense</h1>
+
+                        <p class="section-text">
+                            Be patient the results will speak for themselves.Lets get started!!
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Get Started</a>
+
+                    </div>
+
+                    <div class="hero-banner">
+
+                        <img src="./images/dumbell.jpg" width="900" height="800" alt="hero banner" class="w-100">
+
+                        <img src="./images/about-circle-one.png" width="666" height="666" aria-hidden="true" alt="" class="circle circle-1">
+                        <img src="./images/about-circle-two.png" width="666" height="666" aria-hidden="true" alt="" class="circle circle-2">
+
+                        <img src="./images/heart-rate.svg" width="255" height="270" alt="heart rate" class="abs-img abs-img-1">
+                        <img src="./images/calories.svg" width="348" height="224" alt="calories" class="abs-img abs-img-2">
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #ABOUT
+      -->
+
+            <section class="section about" id="about" aria-label="about">
+                <div class="container">
+
+                    <div class="about-banner has-after">
+                        <img src="./images/cardio.jfif" width="660" height="648" loading="lazy" alt="about banner" class="w-100">
+
+                        <img src="./images/hero-circle-one.png" width="660" height="534" loading="lazy" aria-hidden="true" alt="" class="circle circle-1">
+                        <img src="./images/hero-circle-two.png" width="660" height="534" loading="lazy" aria-hidden="true" alt="" class="circle circle-2">
+
+                        <img src="./images/fitness.png" width="650" height="154" loading="lazy" alt="fitness" class="abs-img w-100">
+                    </div>
+
+                    <div class="about-content">
+
+                        <p class="section-subtitle">About Us</p>
+
+                        <h2 class="h2 section-title">Welcome To Our Fitness Gym</h2>
+
+                        <p class="section-text">
+                            “Making excuses burns zero calories per hour.” <br>“Nothing truly great ever came from a comfort zone.”<br> “Don’t limit your challenges, challenge your limits.”<br> Strength comes in the Struggle.So,Lets!! Sweat And Burn Some
+                            Calories.
+                        </p>
+
+                        <p class="section-text">
+
+                        </p>
+
+                        <div class="wrapper">
+
+                            <div class="about-coach">
+
+                                <figure class="coach-avatar">
+                                    <img src="./images/trainer.jfif" width="65" height="65" loading="lazy" alt="Trainer">
+                                </figure>
+
+                                <div>
+                                    <h3 class="h3 coach-name">Daniel Frek</h3>
+
+                                    <p class="coach-title">Our Coach</p>
+                                </div>
+
+                            </div>
+
+                            <a href="#" class="btn btn-primary">Explore More</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #VIDEO
+      -->
+
+            <section class="section video" aria-label="video">
+                <div class="container">
+
+                    <div class="video-card has-before has-bg-image" style="background-image: url('./images/OIP.jfif')">
+
+                        <h2 class="h2 card-title">Explore Fitness Life</h2>
+
+                        <button class="play-btn" aria-label="play video">
+              <ion-icon name="play-sharp" aria-hidden="true"></ion-icon>
+            </button>
+
+                        <a href="#" class="btn-link has-before">Watch More</a>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #CLASS
+      -->
+
+            <section class="section class bg-dark has-bg-image" id="class" aria-label="class" style="background-image: url('./images/classes-bg.png')">
+                <div class="container">
+
+                    <p class="section-subtitle">Our Classes</p>
+
+                    <h2 class="h2 section-title text-center">Fitness Classes For Every Goal</h2>
+
+                    <ul class="class-list has-scrollbar">
+
+                        <li class="scrollbar-item">
+                            <div class="class-card">
+
+                                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                                    <img src="./images/cls1.jfif" width="416" height="240" loading="lazy" alt="Weight Lifting" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="title-wrapper">
+                                        <img src="./images/class-icon-1.png" width="52" height="52" aria-hidden="true" alt="" class="title-icon">
+
+                                        <h3 class="h3">
+                                            <a href="#" class="card-title">Weight Lifting</a>
+                                        </h3>
+                                    </div>
+
+                                    <p class="card-text">
+                                        If you think lifting weights is dangerous, try being weak. Being weak is dangerous.
+                                    </p>
+
+                                    <div class="card-progress">
+
+                                        <div class="progress-wrapper">
+                                            <p class="progress-label">Class Full</p>
+
+                                            <span class="progress-value">85%</span>
+                                        </div>
+
+                                        <div class="progress-bg">
+                                            <div class="progress-bar" style="width: 85%"></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="class-card">
+
+                                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                                    <img src="./images/class-2.jpg" width="416" height="240" loading="lazy" alt="Cardio & Strenght" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="title-wrapper">
+                                        <img src="./images/class-icon-2.png" width="52" height="52" aria-hidden="true" alt="" class="title-icon">
+
+                                        <h3 class="h3">
+                                            <a href="#" class="card-title">Cardio & Strenght</a>
+                                        </h3>
+                                    </div>
+
+                                    <p class="card-text">
+                                        My only rule is to keep moving, for a pump and cardio at the same time. ...
+                                    </p>
+
+                                    <div class="card-progress">
+
+                                        <div class="progress-wrapper">
+                                            <p class="progress-label">Class Full</p>
+
+                                            <span class="progress-value">70%</span>
+                                        </div>
+
+                                        <div class="progress-bg">
+                                            <div class="progress-bar" style="width: 70%"></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="class-card">
+
+                                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                                    <img src="./images/cls2.jfif" width="416" height="240" loading="lazy" alt="Power Yoga" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="title-wrapper">
+                                        <img src="./images/class-icon-3.png" width="52" height="52" aria-hidden="true" alt="" class="title-icon">
+
+                                        <h3 class="h3">
+                                            <a href="#" class="card-title">Power Yoga</a>
+                                        </h3>
+                                    </div>
+
+                                    <p class="card-text">
+                                        Yoga becomes one lifelong journey to internal revelation. ...
+                                    </p>
+
+                                    <div class="card-progress">
+
+                                        <div class="progress-wrapper">
+                                            <p class="progress-label">Class Full</p>
+
+                                            <span class="progress-value">90%</span>
+                                        </div>
+
+                                        <div class="progress-bg">
+                                            <div class="progress-bar" style="width: 90%"></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="class-card">
+
+                                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                                    <img src="./images/class-4.jpg" width="416" height="240" loading="lazy" alt="The Fitness Pack" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="title-wrapper">
+                                        <img src="./images/class-icon-4.png" width="52" height="52" aria-hidden="true" alt="" class="title-icon">
+
+                                        <h3 class="h3">
+                                            <a href="#" class="card-title">The Fitness Pack</a>
+                                        </h3>
+                                    </div>
+
+                                    <p class="card-text">
+                                        Yoga becomes one lifelong journey to internal revelation. ...
+                                    </p>
+
+                                    <div class="card-progress">
+
+                                        <div class="progress-wrapper">
+                                            <p class="progress-label">Class Full</p>
+
+                                            <span class="progress-value">60%</span>
+                                        </div>
+
+                                        <div class="progress-bg">
+                                            <div class="progress-bar" style="width: 60%"></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+
+            <div class="pricing">
+                <div class="price">
+                    <h1>Pricing</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="price-box">
+                        <div>
+                            <h2>Basic</h2>
+                            <h3>$11</h3>
+                            <h5>1 Month Training</h5>
+                            <button class="btn">Buy Now</button>
+                        </div>
+                        <div>
+                            <h2>Standard</h2>
+                            <h3>$21</h3>
+                            <h5>3 Month Training</h5>
+                            <button class="btn">Buy Now</button>
+                        </div>
+                        <div>
+                            <h2>Premium</h2>
+                            <h3>$31</h3>
+                            <h5>6 Month Training</h5>
+                            <button class="btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 
+        - #BLOG
+      -->
+
+            <section class="section blog" id="blog" aria-label="blog">
+                <div class="container">
+
+                    <p class="section-subtitle">Our News</p>
+
+                    <h2 class="h2 section-title text-center">Latest Blog Feed</h2>
+
+                    <ul class="blog-list has-scrollbar">
+
+                        <li class="scrollbar-item">
+                            <div class="blog-card">
+
+                                <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                                    <img src="./images/cad1.jfif" width="440" height="270" loading="lazy" alt="Going to the gym for the first time" class="img-cover">
+
+                                    <time class="card-meta" datetime="2022-20-08">20 August 2022</time>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Going to the gym for the first time</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        ¨Most people fail, not because of lack of desire,<br> But, because of lack of commitment.¨<br>Get familiar Be it the equipment in your gym,<br> the trainer or other people around make sure you take a tour of the
+                                        space. get to know it well. ...<br> And most important is warm up.<br>It is one of the most important thing for a beginner.
+                                    </p>
+
+                                    <a href="#" class="btn-link has-before">Read More</a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="blog-card">
+
+                                <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                                    <img src="./images/cad2.jfif" width="440" height="270" loading="lazy" alt="Parturient accumsan cacus pulvinar magna" class="img-cover">
+
+                                    <time class="card-meta" datetime="2022-20-08">20 August 2022</time>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Cardio</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        “People tend to think of cardio in terms of steady-state exercise, like jogging,”<br>
+                                        <u> Cardio is any exercise that increases the heart rate</u><br> Not quite. Just about any physical activity you do can increase your heart rate, from lifting weights to strolling between your desk and the bathroom
+                                        to rolling out of bed in the morning.<br> Some exercise are-Forearm Plank. Start on all fours then lower onto...<br>lateral shuffles
+                                    </p>
+
+                                    <a href="#" class="btn-link has-before">Read More</a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="blog-card">
+
+                                <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                                    <img src="./images/cad3.jfif" width="440" height="270" loading="lazy" alt="Risus purus namien parturient accumsan cacus" class="img-cover">
+
+                                    <time class="card-meta" datetime="2022-20-08">20 August 2022</time>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Strength And Physical Fitness</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Physical Fitness is very important in a person’s life.<br>Physically fit people are much more productive & successful<br> in their life, not only that.<br> They hold a lot of health benefits <br>over the people
+                                        who are not fit.<br> They live their life to the full extent, <br>and they don’t have to worry about their health.
+                                    </p>
+
+                                    <a href="#" class="btn-link has-before">Read More</a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+
+        <div class="section footer-top bg-dark has-bg-image" style="background-image: url('./images/footer-bg.png')">
+            <div class="container">
+
+                <div class="footer-brand">
+
+                    <a href="#" class="logo">
+                        <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+
+                        <span class="span">Fitlife</span>
+                    </a>
+
+                    <p class="footer-brand-text">
+                        It's gym time!!
+                    </p>
+
+                    <div class="wrapper">
+
+                        <img src="./images/footer-clock.png" width="34" height="34" loading="lazy" alt="Clock">
+
+                        <ul class="footer-brand-list">
+
+                            <li>
+                                <p class="footer-brand-title">Monday - Friday</p>
+
+                                <p>6:00Am - 8:00Pm</p>
+                            </li>
+
+                            <li>
+                                <p class="footer-brand-title">Saturday - Sunday</p>
+
+                                <p>6:00Am - 1:00Pm</p>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title has-before">Our Links</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Classes</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Contact Us</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title has-before">Contact Us</p>
+                    </li>
+
+                    <li class="footer-list-item">
+                        <div class="icon">
+                            <ion-icon name="location" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <address class="address footer-link">
+              East coast Building, 15th Phase, opposite Navallur signal, Navallur, Chennai
+            </address>
+                    </li>
+
+                    <li class="footer-list-item">
+                        <div class="icon">
+                            <ion-icon name="call" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <div>
+                            <a href="tel:18002117373" class="footer-link">1800-211-7373</a>
+
+                            <a href="tel:+919146548373" class="footer-link">+91 914 654-8373</a>
+                        </div>
+                    </li>
+
+                    <li class="footer-list-item">
+                        <div class="icon">
+                            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <div>
+                            <a href="mailto:info@fitlife.com" class="footer-link">info@FitIndia.com</a>
+
+                            <a href="mailto:services@fitlife.com" class="footer-link">services@FitIndia.com</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title has-before">Our Newsletter</p>
+                    </li>
+
+                    <li>
+                        <form action="" class="footer-form">
+                            <input type="email" name="email_address" aria-label="email" placeholder="Email Address" required class="input-field">
+
+                            <button type="submit" class="btn btn-primary" aria-label="Submit">
+                <ion-icon name="chevron-forward-sharp" aria-hidden="true"></ion-icon>
+              </button>
+                        </form>
+                    </li>
+
+                    <li>
+                        <ul class="social-list">
+
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <p class="copyright">
+                    &copy;Gym Membership <a href="#" class="copyright-link">FitIndia</a>
+                </p>
+
+                <ul class="footer-bottom-list">
+
+                    <li>
+                        <a href="#" class="footer-bottom-link has-before">Fit India</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-bottom-link has-before">gym</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+    </a>
+
+
+
+
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
